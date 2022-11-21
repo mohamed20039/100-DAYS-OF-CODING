@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.body{
+    background: black;
+}
+.container{
+    background-color: rgb(23, 210, 223);
+    width: 720px;
+    height: 307px;
+    margin-top: 150px;
+    margin-left: 220px;
+    border-radius: 7px;
+}
+.container img{
+    float: left;
+    border-radius: 7px;
+}
+.container .movie-name{
+    padding-top: 10px;
+    float: right;
+    padding-right: 164px;
+    color: white;
+}
+.container .movie-details{
+    display: flex;
+    justify-content: space-around;
+    width: 250px;
+    padding-left: 12px;
+    color: white;
+}
+.container .stars{
+    float: right;
+    padding-right: 318px;
+    color: white;
+}
+.container .description{
+    width: 620px;
+    font-size: small;
+    padding-left: 234px;
+    color: white;
+}
+.container .More-description{
+    padding-top: 11px;
+    color: black;
+}
+.container button{
+    margin-left: 28px;
+    width: 120px;
+    border: 1px solid black;
+    margin-top: 8px;
+    height: 40px;
+    background: transparent;
+    border-radius: 5px;
+}
