@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+body{
+    background-image: url(images/Netflix\ logo.jpg);
+    background-size: cover;
+    
+}
+body::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1000px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: -1;
+}
+.container{
+    width: auto;
+}
+
+.container .navbar{
+    display: flex;
+    padding: 30px;
+}
+
+.container .navbar button{
+    margin-top: -6px;
+    height: 37px;
+    width: 85px;
+    border: none;
+    background-color: red;
+    border-radius: 4px;
+    margin-left: 970px;
+}
+.container .navbar img{
+    margin-top: -20px;
+    margin-left: 10px;
+}
+.container .navbar button a{
+    color: white;
+}
+.container .navbar .language{
+    position: absolute;
+    margin-top: -6px;
+    margin-left: 971px;
+}
+.container .navbar .language select{
+    width: 100px;
+    height: 37px;
+    padding-left: 20px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+}
+
+.container .navbar .language span{
+    position: absolute;
+    padding-left: 0px;
+    z-index: 1;
+    padding-top: 6px;
+    color: white;
+    
+}
+/* navbar ended here */
+
+.hero h1{
+    width: 400px;
+    padding-top: 80px;
+    font-size: xx-large;
+    font-weight: 700;
+    margin-left: 460px;
+    color: white;
+}
+.hero h3{
+    padding-top: 2px;
+    margin-left: 420px;
+    font-size: x-large;
+    color: white;
+}
+.hero h4{
+    padding-top: 17px;
+    margin-left: 350px;
+    color: white;
+}
+.hero input{
+    margin-top: 20px;
+    width: 470px;
+    height: 57px;
+    margin-left: 340px;
+    border: none;
+    background-color: white;
+}
+.hero label {
+    padding-top: 16.2px;
+    width: 180px;
+    display: inline-block;
+    background-color: red;
+    height: 58px;
+    padding-left: 15px;
+    text-align: center;
+    color: white;
+}
+.hero .material-symbols-outlined{
+    background-color: red;
+    vertical-align: middle;
+}
+.sub-hero{
+    display: flex;
+    background-color: black;
+    height: 430px;
+}
+.sub-hero .sub-hero-description{
+    color: white;
+    margin-left: 78px;
+    margin-top: 15px;
+}
+.sub-hero .sub-hero-description h1{
+    margin-top: 100px;
+    font-size: 3.5rem;
+}
+.sub-hero .sub-hero-description h3{
+    font-weight: 500;
+    font-size: 1.5rem;
+    width: 550px;
+}
+.sub-hero .tv-description{
+    margin-top: 25px;
+}
+.sub-hero .tv-description img{
+    /* z-index: 1; */
+    position: absolute;
+    margin-left: 80px;
+}
+.sub-hero .tv-description video{
+    padding-left: 148px;
+    margin-top: 70px;
+}
+.story-section{
+    height: 550px;
+    display: flex;
+    background-color: black;
+}
+.story-section .story-card{
+    background-image: url(images/mobile-0819.jpg);
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 700px;
+}
+.story-card .story-card-animation{
+    background-color: black;
+    display: flex;
+    margin-top: 346px;
+    margin-left: 110px;
+    padding-left: 20px;
+    width: 400px;
+    height: 90px;
+    border-radius: 8px;
+    border: 1px solid rgb(91, 89, 89);
+}
+.story-section .story-card .story-card-animation .boxshot{
+    margin-top: 1px;
+}
+.story-section .story-card .story-card-animation .story-card-animation-text{
+     margin-top: 17px;
+     margin-left: 15px;
+}
+.story-section .story-card .story-card-animation .story-card-animation-text p{
+    color: blue;
+}
+.story-section .story-card .story-card-animation .story-card-animation-text h4{
+    color: white;
+}
+.download-icon{
+    margin-left: 100px;
+    margin-top: 17px;
+}
+.story-section .story-text{
+    margin-top: 40px;
+    width: 900px;
+}
+.story-section .story-text h1{
+    width: 680px;
+    margin-left: 30px;
+    font-size: 3.5em;
+    margin-top: 100px;
+    color: white;
+}
+.story-section .story-text h3{
+    font-size: 1.5rem;
+    width: 600px;
+    margin-left: 30px;
+    color: white;
+}
+.watch-every-where{
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 270px;
+    padding-top: 60px;
+}
+.watch-every-where h1{
+    font-size: 3.5rem;
+    margin-left: 100px;
+}
+.watch-every-where .next{
+    font-size: 1.5rem;
+    font-weight: 400;
+    width: 500px;
+}
+.kids-part{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    width: 100%;
+    background-color: black;
+}
+.kids-part .image{
+    margin-left: 30px;
+    margin-top: 35px;
+}
+.kids-part .kids-part-text{
+    color: white;
+}
+.kids-part .kids-part-text h1{
+    font-size: 3.2rem;
+    padding-top: 135px;
+}
+.kids-part .kids-part-text p{
+    font-weight: 300;
+    font-size: 1.6rem;
+    width: 600px;
+}
+.faq{
+    padding: 70px 30px;
+    background-color: #000;
+}
+.faq h1{
+    font-size: 3.125rem;
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+}
+.questions{
+    max-width: 635px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.question{
+    position: relative;
+    background-color: #303030;
+    color: white;
+    margin-bottom: 10px;
+}
+.question svg{
+    width: 30px;
+    height: 30px;
+    top: 20px;
+    right: 30px;
+    position: absolute;
+    transform: rotate(225deg);
+    transition: all 0.2s ease ;
+}
+.question .header{
+    display: block;
+    padding: 20px 30px;
+    border-bottom: 1px solid #000;
+    cursor: pointer;
+}
+.question .content{
+    padding: 0 30px;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.2s ease;
+}
+.question input[type="checkbox"]{
+    display: none;
+}
+.question input[type="checkbox"]:checked ~ div.content{
+    padding: 30px 30px;
+    max-height: 600px;
+}
+.question input[type="checkbox"]:checked ~ .header svg{
+    transform: rotate(0deg);
+}
+.another-email-section{
+    background-color: #000;
+    height: 150px;
+}
+.another-email-section input{
+    margin-top: 20px;
+    width: 470px;
+    height: 57px;
+    margin-left: 340px;
+    border: none;
+    background-color: white;
+}
+.another-email-section label {
+    padding-top: 16.2px;
+    width: 180px;
+    display: inline-block;
+    background-color: red;
+    height: 58px;
+    padding-left: 15px;
+    text-align: center;
+    color: white;
+}
+.another-email-section .material-symbols-outlined{
+    background-color: red;
+    vertical-align: middle;
+}
+.another-email-section h4{
+    padding-top: 17px;
+    margin-left: 350px;
+    color: white;
+}
+.footer{
+    background-color: rgb(9, 7, 7);
+    padding: 60px 100px;
+    height: 360px;
+    color: #737373;
+
+}
+.footer .up-footer{
+    display: flex;
+}
+.footer .up-footer .line1{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 250px;
+}
+.footer .up-footer .help-center{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 250px;
+}
+.footer .up-footer .Account{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 250px;
+}
+.footer .up-footer .media-center{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 250px;
+}
+.container .footer .language{
+    position: absolute;
+    margin-top: -6px;
+    margin-top: 25px;
+}
+.container .footer .language select{
+    width: 120px;
+    height: 50px;
+    padding-left: 37px;
+    border: 1px solid white;
+    background-color: black;
+    color: #303030;
+}
+
+.container .footer .language span{
+    position: absolute;
+    padding-left: 10px;
+    z-index: 1;
+    padding-top: 13px;
+    color: #303030;
+}
+.footer a{
+    color: #303030;
+}
+.footer .p2{
+    margin-top: 30px;
+    color: #303030;
+}
