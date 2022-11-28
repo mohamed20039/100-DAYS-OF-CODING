@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  body {
+    font: var(--fs-default) var(--ff-default);
+  }
+  :root {
+    --mobile-size: 375px;
+    --desktop-size: 1440px;
+    --clr-primary-cyan: #2ab2af;
+    --clr-primary-cyan-light: #2fcac8;
+    --clr-primary-bright_yellow: #c0df34;
+    --clr-neutral-light_gray: #e5eff5;
+    --clr-neutral-grayish_blue: #98a6bd;
+    --clr-grayish: #e6eff6;
+    --fs-default: 16px;
+    --ff-default: "Karla", sans-serif;
+    --fw-karla_regular: 400;
+    --fw-karla_bold: 700;
+    --card-border: 0.5rem;
+}
+ul ,li{
+    list-style: none;
+    padding: 0;
+}
+main{
+    background-color: var(--clr-grayish);
+    padding: 1.4rem;
+}
+.container{
+    width: 100%;
+    max-width: var(--mobile-size);
+    margin: 3rem auto;
+}
+.card-component{
+    padding: 2.8rem;
+}
+.community{
+    background-color: white;
+    border-radius: var(--card-border) var(--card-border) 0 0;
+}
+.community h1{
+    font-size: 1.4rem;
+    color: var(--clr-primary-cyan-light);
+    padding-bottom: 1rem;
+}
+.community h3{
+    padding-bottom: 1rem;
+    color: var(--clr-primary-bright_yellow);
+}
+.community p{
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+}
+.subscription{
+    background-color: var(--clr-primary-cyan);
+}
+.subscription .monthly{
+    color: white;
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+}
+.subscription .cost{
+    display: flex;
+    align-items: center;
+    gap: 19px;
+    padding-bottom: 10px;
+    color: white;
+}
+.subscription .cost p{
+    color: var(--clr-neutral-light_gray);
+}
+.subscription p{
+    color: white;
+}
+.subscription .btn{
+    text-align: center;
+    margin-top: 10px;
+    background-color: var(--clr-primary-bright_yellow);
+    border-radius: 6px;
+    margin-top: 15px;
+    padding: 0.8rem 0;
+}
+.subscription .btn button{
+    font-size: 0.8rem;
+    border: none;
+    background-color: var(--clr-primary-bright_yellow);
+    color: white;
+}
+.why-us{
+    background-color: var(--clr-primary-cyan-light);
+    border-radius: 0 0 var(--card-border) var(--card-border);
+}
+.why-us li{
+    color: var(--clr-neutral-light_gray);
+}
+.why-us h2{
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+}
+@media screen and (min-width:920px){
+    .container{
+        width: 50%;
+        max-width: var(--desktop-size);
+    }
+    .card-row{
+        display: flex;
+    }
+    .community{
+        height: 250px;
+    }
+    .subscription{
+        width: 100%;
+        border-radius: 0 0 0 var(--card-border);
+    }
+    .why-us{
+        width: 100%;
+        border-radius: 0 0 var(--card-border) 0;
+        
+    }
+}
