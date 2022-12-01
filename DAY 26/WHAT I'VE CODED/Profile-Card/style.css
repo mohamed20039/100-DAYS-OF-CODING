@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+body{
+    background-color: black;
+}
+.container{
+    width: 360px;
+    padding: 20px 39px;
+    background-color: white;
+    margin-left: 600px;
+    margin-top: 80px;
+    border-radius: 20px;
+    height: 570px;
+}
+.header-icons{
+    display: flex;
+    gap: 200px;
+}
+.image-and-tick img{
+    border-radius: 100%;
+    margin-left: 90px;
+    filter: drop-shadow(0px 12px 30px rgb(17, 112, 143));
+}
+.image-and-tick span{
+    position: relative;
+    background: rgb(38,25,255);
+    background: linear-gradient(90deg, rgba(38,25,255,1) 0%, rgba(0,212,255,1) 100%);
+    border-radius: 100%;
+    color: white;
+    bottom: 15px;
+    right: 27px;
+}
+.description h3{
+    font-weight: 600;
+    text-align: center;
+    padding-top: 10px;
+}
+.description p{
+    text-align: center;
+}
+.description .job-description1{
+    padding-top: 10px;
+}
+.description .job-description{
+    font-weight: 600;
+    font-size: .9rem;
+    color: rgb(183, 184, 185);
+}
+.description button{
+    position: relative;
+    margin-top: 20px;
+    width: 130px;
+    height: 40px;
+    border: none;
+    text-align: center;
+    margin-left: 74px;
+    background-color: rgb(25,255,56);
+    background: linear-gradient(90deg, rgba(25,255,56,1) 0%, rgba(0,201,255,1) 100%);
+    color: white;
+    border-radius: 20px;
+    filter: drop-shadow(0 10px 60px black);
+}
+.description button:hover{
+    color: rgb(25,255,56);
+    background: white;
+    border: solid 1px rgb(25,255,56);
+}
+hr{
+    margin-top: 40px;
+    color: white;
+    width: 220px;
+    margin-left: 20px;
+}
+.social-media-icons-and-followrs{
+    padding-top: 40px;
+    display: flex;
+    text-align: center;
+    gap: 10px;
+    padding-left: 10px;
+}
+.instagram a{
+    background: rgb(255,25,25);
+    background: linear-gradient(90deg, rgba(255,25,25,1) 0%, rgba(246,123,5,1) 100%);
+    width: 40px;
+    height: 40px;
+    padding-top: 12px;
+    color: white;
+    border-radius: 100%;
+    filter: drop-shadow(0 7px 10px red);
+}
+.twitter a{
+    background: rgb(25,216,255);
+    background: linear-gradient(90deg, rgba(25,216,255,1) 0%, rgb(110, 211, 223) 100%);
+    width: 40px;
+    height: 40px;
+    padding-top: 12px;
+    color: white;
+    border-radius: 100%;
+    filter: drop-shadow(0 7px 10px lightblue);
+}
+.snapchat a{
+    background: rgb(253,255,16);
+    background: linear-gradient(90deg, rgba(253,255,16,1) 0%, rgb(226, 225, 124) 100%);
+    width: 40px;
+    height: 40px;
+    padding-top: 12px;
+    color: black;
+    border-radius: 100%;
+    filter: drop-shadow(0 7px 10px yellow);
+}
+.social-media-icons-and-followrs .instagram .followers-number{
+    padding-top: 15px;
+    font-weight: 600;
+}
+.social-media-icons-and-followrs .twitter .followers-number{
+    padding-top: 15px;
+    font-weight: 600;
+}
+.social-media-icons-and-followrs .snapchat .followers-number{
+    padding-top: 15px;
+    font-weight: 600;
+}
