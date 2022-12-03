@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    background-color: aliceblue;
+}
+.container{
+    display: flex;
+}
+.first-city{
+    width: 300px;
+    height: 510px;
+    margin: 100px auto;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.first-city img{
+    border-radius: 12px 12px 0 0;
+}
+
+.first-city .description .city-name{
+    color: rgb(145, 155, 163);
+    font-weight: 700;
+    font-size: .8rem;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.first-city .description .city-description{
+    font-size: .9rem;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.first-city .description .more-details{
+    font-weight: 500;
+    font-size: .9rem;
+    width: 295px;
+    padding-left: 20px;
+    margin-top: 15px;
+}
