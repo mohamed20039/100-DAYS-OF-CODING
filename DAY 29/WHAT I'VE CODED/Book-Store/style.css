@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Karla';
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-image: url(images/Background.jpg);
+    background-size: cover;
+}
+.header{
+    display: flex;
+    gap: 260px;
+    background-color: white;
+    height: 70px;
+    filter: drop-shadow(0 10px 10px #000);
+}
+.header .image img{
+    padding: 12px;
+}
+.header .navbar ul{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.header .navbar ul li:hover{
+    border-bottom: 4px solid rgb(0,0,0,0.6);
+    transition: all 0.1s ease-in-out;
+}
+.header .navbar ul li a{
+    color: black;
+}
+.header .navbar ul li span{
+    position: relative;
+    top: 3px;
+    color: black;
+}
+.header .btn button{
+    position: relative;
+    top: 25px;
+    border: none;
+    background: rgb(16,90,255);
+    background: linear-gradient(90deg, rgba(16,90,255,1) 0%, rgba(255,78,78,1) 100%);
+    height: 30px;
+    width: 140px;
+    color: white;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.header .btn button a{
+    color: white;
+    cursor: pointer;
+}
+
+.hero{
+    position: relative;
+    width: 600px;
+    background-color: white;
+    border-radius: 10px;
+    top: 250px;
+    left: 500px;
+    height: 200px;
+}
+
+.hero p{
+    width: 400px;
+    text-align: center;
+    padding: 20px;
+    margin-left: 80px;
+    color: rgb(0, 194, 220);
+    font-weight: 600;
+}
+
+.hero button{
+    position: relative;
+    left: 250px;
+    border: none;
+    background-color: rgb(112, 9, 135);
+    color: white;
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+}
+.hero button:hover{
+    filter: drop-shadow( 0 6px 5px rgb(112, 9, 135));
+    border: 1px solid rgb(112, 9, 135);
+    background-color: white;
+    color: rgb(112, 9, 135);
+} 
