@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+body{
+    background-color: #4d46a6;
+}
+.container{
+    margin-top: 220px;
+    margin-left: 500px;
+    width: 350px;
+    background-color: #ffffff;
+    height: 350px;
+    padding-top: 30px;
+    border-radius: 10px;
+    filter: drop-shadow(0 5px 0 #3b3491);
+}
+.header{
+    display: flex;
+    gap: 50px;
+    padding-left: 25px;
+    background-color: #fff;
+    height: 50px;
+    color: black;
+    border-radius: 7px;
+    width:300px;
+    margin-left: 25px;
+    border: 0.3px solid #edecef;
+    /* padding-top: 17px; */
+}
+.header .Pricing-choices{
+    padding-top: 17px;
+    position: relative;
+    right: 10px;
+}
+.header .highlighted{
+    background-color: #4aa59e;
+    height: 30px;
+    margin-top: 10px;
+    padding-top: 6px;
+    width: 80px;
+    padding-left: 10px;
+    border-radius: 6px;
+    color: white;
+}
+.hero{
+    padding-left: 60px;
+    padding-top: 25px;
+}
+.hero .standard{
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: #868688;
+}
+.hero .price{
+    display: flex;
+    gap: 140px;
+    font-size: 0.8rem;
+}
+.hero .description p{
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding-top: 20px;
+    width: 230px;
+}
+.hero .description .description-text span{
+    background-color: #e0dff6;
+    border-radius: 100%;
+    font-size: 1.1rem;
+}
+/* .hero .description-text{
+    display: flex;
+} */
+.hero .description .description-text .first{
+    display: flex;
+    gap: 8px;
+}
+.hero .description .description-text .second{
+    padding-top: 10px;
+    gap: 8px;
+    display: flex
+}
+
+.hero .description .description-text .first h5{
+    font-size: 0.7rem;
+    padding-top: 2px;
+}
+.hero .description .description-text .second h5{
+    font-size: 0.7rem;
+    padding-top: 2px;
+}
+
+.cart button{
+    width: 200px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 70px;
+    border: none;
+    border-radius: 20px;
+    background-color: #4d46a6;
+    color: white;
+    filter: drop-shadow(0 5px 7px #4d46a6);
+}
