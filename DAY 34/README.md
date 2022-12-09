@@ -1,4 +1,4 @@
-Hi guys its say 34 of 100 coding challenge so lemme tell what i've learned today
+Hi guys its say 34 of 100 coding challenge so lemme tell what i've learned today.
 
 1.Today i've practiced javascript
 2.i learned loops and some for array.
