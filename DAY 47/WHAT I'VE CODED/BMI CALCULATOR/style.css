@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    background-color: wheat;
+    width: 400px;
+    height: 350px;
+    margin: 500px auto;
+    padding-top: 90px;
+    padding-left: 70px;
+    border-radius: 15px;
+}
+
+.bmi-input{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.bmi-input input{
+    width: 300px;
+    position: relative;
+    right: 20px;
+    height: 40px;
+    padding-left: 10px;
+    color: #161748;
+    border: 1px solid #161748;
+    background-color: transparent;
+    outline: none;
+    border-radius: 14px;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+::placeholder{
+    color: #161748;
+}
+
+.calc-btn button{
+    position: relative;
+    top: 20px;
+    left: 50px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 50px;
+    border-color: #0049B7;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.calc-btn button:hover{
+    background-color: #3c267b;
+    color: white;
+}
+
+.display{
+    display: flex;
+    margin-top: 30px;
+    gap: 145px;
+    position: relative;
+    right: 15px;
+}
+.display p{
+    color: #3c267b;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.status p{
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding-left: 60px;
+    padding-top: 14px;
+}
+
+.status p span{
+    color: #0049B7;
+}
+
