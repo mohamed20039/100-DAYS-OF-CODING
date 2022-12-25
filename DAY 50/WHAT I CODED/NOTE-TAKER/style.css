@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    list-style: none;
+}
+
+body{
+    background-color: #003493;
+}
+
+.container{
+    margin-top: 170px;
+    margin-left: 600px;
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.input-part{
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.input-part input{
+    border: none;
+    background-color: #8076FF;
+    height: 40px;
+    color: white;
+    font-size: 1rem;
+    width: 300px;
+    border-radius: 7px;
+    padding-left: 30px;
+}
+
+.input-part input::placeholder{
+    color: white;
+}
+
+.input-part span{
+    color: white;
+    position: relative;
+    left: 30px;
+    font-size: 1.1rem;
+    top: 3px;
+}
+
+.btn{
+    padding-top: 10px;
+    padding-left: 100px;
+}
+
+.btn button{
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0097AF;
+    height: 35px;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.btn span{
+    color: white;
+    position: relative;
+    left: 60px;
+    top: 3px;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+ul{
+    margin-top: 50px;
+}
+
+ul li{
+    background-color: #003493;
+    margin: 10px;
+    height: auto;
+    text-align: center;
+    padding-top: 3px;
+    border-radius: 10px;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
